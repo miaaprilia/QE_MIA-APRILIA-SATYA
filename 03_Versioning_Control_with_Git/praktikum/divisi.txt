@@ -4,3 +4,4 @@ My Division:
 - Divisi produksi
 - Divisi pembelanjaan (purchasing)
 - Divisi umum
+- Divisi keuangan
