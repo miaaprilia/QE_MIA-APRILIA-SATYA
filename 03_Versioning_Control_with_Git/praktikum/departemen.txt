@@ -1,0 +1,13 @@
+My Department:
+- Departemen sumber daya manusia
+- Departemen administrasi
+- Departemen keuangan
+- Departemen komersial
+- Departemen sales & marketing
+- Departemen pembelian (procurement)
+- Departemen production
+- Departemen QA (quality assurance)
+- Departemen gudang (warehouse)
+- Departemen IT (Information Technology)
+- Departemen PPIC (Product Planning Inventory Control)
+- Departemen GA (General Affair) 
