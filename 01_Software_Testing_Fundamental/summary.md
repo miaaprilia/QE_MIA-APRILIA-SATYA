@@ -1,6 +1,6 @@
 ## 01 - Software Testing Fundamental
 
-Ada beberapa poin yang saya rangkum singkat terkait pembelajaran Software Testing Fundamental:
+Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran Software Testing Fundamental:
 - Menjelaskan definisi dari software testing fundamental
 - Menjelaskan kenapa pengujian perangkat lunak itu penting
 - Menjelaskan kapan bisa dilakukannya maintenance testing 
