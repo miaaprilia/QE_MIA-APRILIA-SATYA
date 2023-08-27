@@ -1,4 +1,4 @@
-My Department:
+Daftar Departemen:
 - Departemen sumber daya manusia
 - Departemen administrasi
 - Departemen keuangan

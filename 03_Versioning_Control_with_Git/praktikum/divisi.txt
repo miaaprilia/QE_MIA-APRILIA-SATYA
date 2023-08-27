@@ -1,4 +1,4 @@
-My Division:
+Daftar Divisi:
 - Divisi pemasaran
 - Divisi personalia atau HRD
 - Divisi produksi
