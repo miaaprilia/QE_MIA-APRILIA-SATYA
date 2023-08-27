@@ -1,6 +1,6 @@
 ## 04 - Testing Dokumentation
 
-Ada beberapa poin yang saya rangkum singkat terkait pembelajaran testing dokumentation:
+Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran testing dokumentation:
 - Menjelaskan apa yang dimaksud dengan test scenario
 - Menjelaskan apa yang dimaksud dengan test case
 - Menjelaskan apa perbedaan dari test scenario dengan test case

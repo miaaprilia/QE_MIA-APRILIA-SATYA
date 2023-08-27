@@ -1,4 +1,4 @@
-Berikut link google docs latihan 4 - Testing Documentation:
+Berikut link google document latihan 4 - Testing Documentation:
 
 https://docs.google.com/document/d/12bMKBG6awwTAa99CCOOy4SnVqLYLVJTLJxEhWulL6HI/edit?usp=sharing
 
