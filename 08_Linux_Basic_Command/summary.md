@@ -12,4 +12,4 @@ Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran linux basi
     c. Processes Control Commands: Top, Clear, History, etc. <br>
     d. Utilities Programs Commands: Ls, Which, Sudo, Find, etc. <br>
     e. File Access Permissions: Chmod, Chown, etc. <br>
-- Mempraktikkan bagaimana menjalankan perintah commands <br>
+- Mempraktikkan bagaimana menjalankan perintah commands 
