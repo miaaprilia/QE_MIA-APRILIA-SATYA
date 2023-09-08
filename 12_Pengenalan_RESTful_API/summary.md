@@ -5,7 +5,7 @@ Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran pengenalan
     Representational State Transfer (REST) adalah pendekatan arsitektur perangkat lunak untuk merancang layanan web yang mengikuti sejumlah prinsip tertentu.
 - Menjelaskan apa yang itu API: 
     Application Programming Interface (API) adalah cara komponen perangkat lunak harus berperilaku dan berkomunikasi, sehingga memungkinkan integrasi antara aplikasi yang berbeda.
-- Mengenali ada 4 HTTP Method, yaitu:
+- Mengenali ada 4 HTTP Method, yaitu: 
     a. GET: Membaca data
     b. PUT: Membuat/mengganti data
     c. POST: Membuat data baru
