@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class LoopingDataAlfabet {
+class LoopingDataAlphabet {
     public static void main(String args[]){
 
         Scanner input = new Scanner(System.in);
