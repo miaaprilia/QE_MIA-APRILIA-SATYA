@@ -1,21 +1,17 @@
-## 12 - Pengenalan RESTful API
+## 16 - Behaviour Driven Development
 
-Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran pengenalan restful api: <br>
-- Menjelaskan apa yang itu REST: <br>
-    Representational State Transfer (REST) adalah pendekatan arsitektur perangkat lunak untuk merancang layanan web yang mengikuti sejumlah prinsip tertentu. <br>
-- Menjelaskan apa yang itu API: <br>
-    Application Programming Interface (API) adalah cara komponen perangkat lunak harus berperilaku dan berkomunikasi, sehingga memungkinkan integrasi antara aplikasi yang berbeda. <br>
-- Mengenali ada 4 HTTP Method, yaitu: <br>
-    a. GET: Membaca data <br>
-    b. PUT: Membuat/mengganti data <br>
-    c. POST: Membuat data baru <br>
-    d. DELETE: Menghapus data yang ada <br> 
-- Mengenali HTTP Response Code: <br>
-    a. 200: OK <br>
-    b. 201: CREATE <br>
-    c. 400: BAD REQUEST <br> 
-    d. 404: NOT FOUND <br>
-    e. 401: UNAUTHORIZED <br>
-    f. 405: METHOD NOT ALLOWED <br>
-    g. 500: INTERNAL SERVER ERROR <br>
-- Mempraktikkan bagaimana menjalankan perintah pada postman
+Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran behaviour driven development: <br>
+- Menjelaskan terkait apa itu BDD <br>
+- Menjelaskan 4 format penulisan BDD, yaitu: <br>
+    a. User Story
+    b. As a [X] I want [Y] So that [Z]
+    c. Scenario
+    d. Given When Then
+- Menjelaskan terkait apa itu cucumber <br>
+- Mengenali 5 tahapan dalam BDD With Cucumber: <br>
+    a. Write Story: Gherkin Syntax (Given, When, Than) <br>
+    b. Map Steps to Java: Configure steps script and validation <br>
+    c. Configure Stories: Combine stories and steps <br> 
+    d. Run Stories: Intellij IDEA, Maven <br>
+    e. View Reports <br>
+- Mempraktikan 2 cara membuat user story yang baik pada BDD with cucumber
