@@ -1,21 +1,21 @@
-## 12 - Pengenalan RESTful API
+## 18 - Web Programming
 
-Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran pengenalan restful api: <br>
-- Menjelaskan apa yang itu REST: <br>
-    Representational State Transfer (REST) adalah pendekatan arsitektur perangkat lunak untuk merancang layanan web yang mengikuti sejumlah prinsip tertentu. <br>
-- Menjelaskan apa yang itu API: <br>
-    Application Programming Interface (API) adalah cara komponen perangkat lunak harus berperilaku dan berkomunikasi, sehingga memungkinkan integrasi antara aplikasi yang berbeda. <br>
-- Mengenali ada 4 HTTP Method, yaitu: <br>
-    a. GET: Membaca data <br>
-    b. PUT: Membuat/mengganti data <br>
-    c. POST: Membuat data baru <br>
-    d. DELETE: Menghapus data yang ada <br> 
-- Mengenali HTTP Response Code: <br>
-    a. 200: OK <br>
-    b. 201: CREATE <br>
-    c. 400: BAD REQUEST <br> 
-    d. 404: NOT FOUND <br>
-    e. 401: UNAUTHORIZED <br>
-    f. 405: METHOD NOT ALLOWED <br>
-    g. 500: INTERNAL SERVER ERROR <br>
-- Mempraktikkan bagaimana menjalankan perintah pada postman
+Terdapat beberapa poin yang saya rangkum singkat terkait web programming: <br>
+- Apa yang dimaksud dengan front-end: <br>
+    Front-end adalah sebuah bagian dari website yang membuat tampilan yang menarik kepada user  <br>
+- Apa yang dimaksud dengan HTML: <br>
+    HTML (Hypertext Markup Language) adalah sebuah standar yang digunakan secara luas untuk menampilkan halaman web <br>
+- Kegunaan HTML, yaitu: <br>
+    a. Membuat struktur dari halaman website <br>
+    b. Mengatur tampilan dan isi dari halaman web <br>
+    c. Membuat tabel dengan tag HTML table <br>
+    d. Membuat form HTML <br> 
+    e. Membuat gambar dengan canvas <br> 
+    f. Mempublikasikan halaman website secara online <br> 
+- Tools HTML Editors, yaitu: <br>
+    a. Notepad <br>
+    b. Visual Studio Code <br>
+    c. Sublime <br> 
+    d. Notepad++ <br>
+    e. Atom <br>
+- Mempraktikkan bagaimana membuat suatu website sederhana
