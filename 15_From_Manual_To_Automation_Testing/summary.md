@@ -4,15 +4,15 @@ Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran from manua
 - Menjelaskan terkait kelebihan manual test dengan automation test <br>
 - Menjelaskan terkait kekurangan manual test dengan automation test <br>
 - Menjelaskan flow automate testing process: <br>
-    a. Test tool selection
-    b. Define scope of automation 
-    c. Planning, design and development
-    d. Test Execution
-    e. Maintenance
+    a. Test tool selection <br>
+    b. Define scope of automation <br>
+    c. Planning, design and development <br>
+    d. Test Execution <br>
+    e. Maintenance <br>
 - Pertimbangan dalam memilih automation tools, yaitu: <br>
-    a. Usability
-    b. Simplicity
-    c. Cost
+    a. Usability <br>
+    b. Simplicity <br>
+    c. Cost <br>
 - Mengenali Best Practices dalam Automation: <br>
     a. Scope of automation <br>
     b. Select the right automation tool <br>
