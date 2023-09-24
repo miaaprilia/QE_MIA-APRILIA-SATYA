@@ -3,10 +3,10 @@
 Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran behaviour driven development: <br>
 - Menjelaskan terkait apa itu BDD <br>
 - Menjelaskan 4 format penulisan BDD, yaitu: <br>
-    a. User Story
-    b. As a [X] I want [Y] So that [Z]
-    c. Scenario
-    d. Given When Then
+    a. User Story <br>
+    b. As a [X] I want [Y] So that [Z] <br>
+    c. Scenario <br>
+    d. Given When Then <br>
 - Menjelaskan terkait apa itu cucumber <br>
 - Mengenali 5 tahapan dalam BDD With Cucumber: <br>
     a. Write Story: Gherkin Syntax (Given, When, Than) <br>
