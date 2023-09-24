@@ -8,7 +8,7 @@ Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran restful ap
     d. API Testing <br>
 - Menjelaskan 4 tahap pada Fundamental API, yaitu: <br>
     a. Record, Define API Information <br>
-    b. Parsing, Filter or Recording API Data And then extract <br>    
+    b. Parsing, Filter or Recording API Data And then extract 
     c. Reconstruction API calls and sent them from a simulate client <br>
     d. Test Validation <br>
 - Menjelaskan 4 category The Practical Test Pyramid, yaitu: <br>
