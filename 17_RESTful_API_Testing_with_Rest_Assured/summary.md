@@ -2,15 +2,15 @@
 
 Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran restful api testing with rest assured: <br>
 - Menjelaskan 4 tahap pada Fundamental API Integration, yaitu: <br>
-    a. Mobile App 
-    b. API Server
-    c. Ext Process
-    d. API Testing
+    a. Mobile App <br>
+    b. API Server <br>
+    c. Ext Process <br>
+    d. API Testing <br>
 - Menjelaskan 4 tahap pada Fundamental API, yaitu: <br>
-    a. Record, Define API Information
-    b. Parsing, Filter or Recording API Data And then extract      
-    c. Reconstruction API calls and sent them from a simulate client
-    d. Test Validation 
+    a. Record, Define API Information <br>
+    b. Parsing, Filter or Recording API Data And then extract <br>    
+    c. Reconstruction API calls and sent them from a simulate client <br>
+    d. Test Validation <br>
 - Menjelaskan 4 category The Practical Test Pyramid, yaitu: <br>
     a. UI: Tes UI / end-to-end adalah tes yang menguji seluruh alur kerja atau fitur dari aplikasi atau sistem perangkat lunak dari awal hingga akhir. <br>
     b. Integration: Tes integrasi adalah pengujian perangkat lunak dari hasil penggabungan unit-unit yang ada didalam software, tujuannya adalah untuk memastikan bahwa komponen-komponen ini berinteraksi dengan benar ketika digabungkan. <br>
