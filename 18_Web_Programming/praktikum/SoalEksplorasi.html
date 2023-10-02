@@ -1,592 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>Carousel Template · Bootstrap v5.1</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/" />
 
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Aria is a business focused HTML landing page template built with Bootstrap to help you create lead generation websites for companies and their services.">
-    <meta name="author" content="Inovatik">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-    <meta property="og:site_name" content="" />
-    <!-- website name -->
-    <meta property="og:site" content="" />
-    <!-- website link -->
-    <meta property="og:title" content="" />
-    <!-- title shown in the actual shared post -->
-    <meta property="og:description" content="" />
-    <!-- description shown in the actual shared post -->
-    <meta property="og:image" content="" />
-    <!-- image link, make sure it's jpg -->
-    <meta property="og:url" content="" />
-    <!-- where do you want your post to link to -->
-    <meta property="og:type" content="article" />
-
-    <!-- Website Title -->
-    <title>SIWIKODE</title>
-    <link href="img/location.png" rel="icon" sizes="32x32" type="image/png" />
-
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-    <link href="css/magnific-popup.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-
-    <!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
-</head>
-
-<body data-spy="scroll" data-target=".fixed-top">
-
-    <!-- Preloader -->
-    <div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div>
-    <!-- end of preloader -->
-
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
-
-        <!-- Image Logo -->
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
-        <!-- end of mobile menu toggle button -->
-        <style>
-            h1 {
-                color: white;
-            }
-        </style>
-        <h1>SIWIKODE
-        </h1>
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#home">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#gallery-wisata">GALLERY WISATA</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#registrasi" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">REGISTRASI</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="registrasi-rekreasi.html"><span class="item-text">WISATA REKREASI</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="registrasi-kuliner.html"><span class="item-text">WISATA KULINER</span></a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#about">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#login">LOGIN</a>
-                </li>
-            </ul>
-    </nav>
     <style>
-        .header {
-            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('img/background-1.jpg') center center no-repeat;
-            background-size: cover;
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
         }
+      }
     </style>
 
-    <!-- Header -->
-    <header id="home" class="header">
-        <div class="header-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-container">
-                            <h1>SIWIKODE</h1>
-                            <h3>--- Sistem Informasi Wisata Kota Depok ---</h3>
-                            <p class="p-heading p-large">Anda berkunjung, kami tersanjung</p>
-                            <a class="btn-solid-lg page-scroll" href="#gallery-wisata">TELUSURI</a>
-                        </div>
-                    </div>
-                    <!-- end of col -->
-                </div>
-                <!-- end of row -->
-            </div>
-            <!-- end of container -->
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Carousel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-        <!-- end of header-content -->
+      </nav>
     </header>
-    <!-- end of header -->
-    <!-- end of header -->
 
-    <div id="gallery-wisata" class="filter">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">GALLERY SIWIKODE</div>
-                    <h2>GALLERY WISATA REKREASI & KULINER</h2>
-                </div>
-                <!-- end of col -->
-            </div>
-            <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Filter -->
-                    <div class="button-group filters-button-group">
-                        <a class="button is-checked" data-filter="*"><span>TAMPILKAN SEMUA</span></a>
-                        <a class="button" data-filter=".rekreasi"><span>WISATA REKREASI</span></a>
-                        <a class="button" data-filter=".kuliner"><span>WISATA KULINER</span></a>
-                        <!-- <a class="button" data-filter=".marketing"><span>MARKETING</span></a>
-                        <a class="button" data-filter=".seo"><span>SEO</span></a> -->
-                    </div>
-                    <!-- end of button group -->
-                    <div class="grid">
-                        <div class="element-item rekreasi">
-                            <a class="popup-with-move-anim" href="#project-1">
-                                <div class="element-item-overlay"><span>SETU BABAKAN</span></div><img src="img/rekreasi/rekreasi-6.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item rekreasi">
-                            <a class="popup-with-move-anim" href="#project-2">
-                                <div class="element-item-overlay"><span>KUBAH MAS</span></div><img src="img/rekreasi/rekreasi-7.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item rekreasi">
-                            <a class="popup-with-move-anim" href="#project-3">
-                                <div class="element-item-overlay"><span>RAGUNAN</span></div><img src="img/rekreasi/rekreasi-8.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item rekreasi">
-                            <a class="popup-with-move-anim" href="#project-4">
-                                <div class="element-item-overlay"><span>TAMAN REKREASI WILADATIKA</span></div><img src="img/rekreasi/rekreasi-5.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item kuliner">
-                            <a class="popup-with-move-anim" href="#project-5">
-                                <div class="element-item-overlay"><span>WARUNG PASTA</span></div><img src="img/kuliner/kuliner-6.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item kuliner">
-                            <a class="popup-with-move-anim" href="#project-6">
-                                <div class="element-item-overlay"><span>GHAWIL CAFE & COFFE</span></div><img src="img/kuliner/kuliner-9.jpg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item kuliner">
-                            <a class="popup-with-move-anim" href="#project-7">
-                                <div class="element-item-overlay"><span>CAFE N COFFE</span></div><img src="img/kuliner/kuliner-8.jpeg" alt="alternative"></a>
-                        </div>
-                        <div class="element-item kuliner">
-                            <a class="popup-with-move-anim" href="#project-8">
-                                <div class="element-item-overlay"><span>KAFE PANGESTU</span></div><img src="img/kuliner/kuliner-7.jpeg" alt="alternative"></a>
-                        </div>
-                    </div>
-                    <!-- end of grid -->
-                    <!-- end of filter -->
-
-                </div>
-                <!-- end of col -->
-            </div>
-            <!-- end of row -->
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <!-- end of container -->
-    </div>
-    <!-- end of filter -->
-    <!-- end of projects -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" /></svg>
 
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Example headline.</h1>
+                <p>Some representative placeholder content for the first slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" /></svg>
 
-    <!-- Project Lightboxes -->
-    <!-- Lightbox -->
-    <div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>Some representative placeholder content for the second slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" /></svg>
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>One more for good measure.</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Marketing messaging and featurettes
+  ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
         <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="img/rekreasi/rekreasi-6.jpg" alt="alternative">
-            </div>
-            <!-- end of col -->
-            <div class="col-lg-4">
-                <h4>SETU BABAKAN</h4>
-                <hr class="line-heading">
-                <p>Situ Babakan merupakan kawasan kampung cagar budaya Betawi yang terletak di Jakarta Selatan. Di sini, terdapat banyak kegiatan budaya dan penjaja kuliner yang bisa dieksplor bersama anak-anak. </p><br/>
-                <p>Di Srengseng Sawah, Kecamatan Jagakarsa, Jakarta Selatan, terdapat sebuah perkampungan Betawi yang masih dijaga kelestariannya. Perkampungan budaya Betawi lengkap dengan rumah-rumah tradisional Betawi ini dikelilingi dua buah danau buatan,
-                    yaitu Setu Babakan dan Situ Mangga Bolong. Setu Babakan memiliki luas sekitar 30 hektare dengan kedalaman sekitar 1-5 meter. </p><br/>
-                <a class="btn-solid-reg" href="detail/detail-rekreasi1.html">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#gallery-wisata">BACK</a>
-            </div>
-            <!-- end of col -->
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777" />
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            </svg>
+
+            <h2>Heading</h2>
+            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777" />
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            </svg>
+
+            <h2>Heading</h2>
+            <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777" />
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            </svg>
+
+            <h2>Heading</h2>
+            <p>And lastly this, the third column of representative placeholder content.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div>
+          <!-- /.col-lg-4 -->
         </div>
-        <!-- end of row -->
-    </div>
-    <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
+        <!-- /.row -->
 
-    <!-- Lightbox -->
-    <div id="project-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="img/rekreasi/rekreasi-7.jpg" alt="alternative">
-            </div>
-            <!-- end of col -->
-            <div class="col-lg-4">
-                <h4>KUBAH MAS</h4>
-                <hr class="line-heading">
-                <p>Masjid Kubah Mas merupakan Masjid yang dibangun oleh Hj. Dian Djuriah Maimun Al Rasyid, pengusaha asal Banten, yang telah memiliki tanah ini sejak tahun 1996. Masjid ini mulai dibangun sejak tahun 2001 dan selesai akhir tahun 2006.</p><br/>
-                <p>Sebuah masjid yang dibangun di tepi jalan Raya Meruyung, Limo, Depok di Kecamatan Limo, Depok. Masjid ini selain sebagai menjadi tempat ibadah salat bagi umat muslim sehari-hari, kompleks masjid ini juga menjadi kawasan wisata keluarga
-                    dan menarik perhatian banyak orang karena kubah-kubahnya yang dibuat dari emas. Selain itu karena luasnya area yang ada dan bebas diakses untuk umum, sehingga tempat ini sering menjadi tujuan liburan keluarga atau hanya sekadar dijadikan
-                    tempat beristirahat.</p><br/>
-                <a class="btn-solid-reg" href="detail/detail-rekreasi2.html">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#gallery-wisata">BACK</a>
-            </div>
-            <!-- end of col -->
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+          </div>
+          <div class="col-md-5">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee" />
+              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            </svg>
+          </div>
         </div>
-        <!-- end of row -->
-    </div>
-    <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
 
-    <!-- Lightbox -->
-    <div id="project-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="img/rekreasi/rekreasi-8.jpg" alt="alternative">
-            </div>
-            <!-- end of col -->
-            <div class="col-lg-4">
-                <h4>RAGUNAN</h4>
-                <hr class="line-heading">
-                <p>Ragunan merupakan taman hutan hujan besar dengan pusat primata, gajah, dan harimau Sumatra, serta jalan setapak teduh yang populer di kalangan para pelari. Di dekatnya, terdapat Taman Anggrek Ragunan yang merupakan area terbuka hijau publik
-                    dengan taman anggrek.</p><br/>
-                <p>Taman Margasatwa Ragunan didirikan pada tanggal 19 September tahun 1864 di Batavia (kini Jakarta) dengan nama “Planten en Dierentuin” ini pertama kali di kelola oleh perhimpunan penyayang Flora dan Fauna Batavia (Culture Vereniging Planten
-                    en Dierentuin at Batavia).</p><br/>
-                <a class="btn-solid-reg" href="detail/detail-rekreasi3.html">DETAILS</a><a class="btn-outline-reg mfp-close as-button" href="#gallery-wisata">BACK</a>
-            </div>
-            <!-- end of col -->
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee" />
+              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            </svg>
+          </div>
         </div>
-        <!-- end of row -->
-    </div>
-    <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
 
-    <!-- Lightbox -->
-    <div id="project-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="img/rekreasi/rekreasi-5.jpg" alt="alternative">
-            </div>
-            <!-- end of col -->
-            <div class="col-lg-4">
-                <h4>TAMAN REKREASI WILADATIKA</h4>
-                <hr class="line-heading">
-                <p>Taman Rekreasi Wiladatika merupakan taman yang diresmikan oleh Presiden Soeharto pada 29 Juni 1980, Taman Rekreasi Wiladatika menjadi salah satu referensi wisata warga Depok dan sekitarnya..</p><br/>
-                <p>Taman Rekreasi Wiladatika dibangun di lahan luas dan dilengkapi beragam fasilitas. Fasilitas tersebut di antaranya bermacam-macam taman, gedung serbaguna, gazebo, hingga kolam renang dan wahana permainan. Tempatnya terawat, nyaman, dan
-                    asri, membuat wisatawan betah menjadikan Taman Rekreasi Wiladatika sebagai tujuan berlibur, salah satunya liburan keluarga.</p><br/>
-                <a class="btn-solid-reg" href="detail/detail-rekreasi4.html">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#gallery-wisata">BACK</a>
-            </div>
-            <!-- end of col -->
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">
+              And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee" />
+              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            </svg>
+          </div>
         </div>
-        <!-- end of row -->
-    </div>
-    <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
 
-    <!-- Lightbox -->
-    <div id="project-5" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="img/kuliner/kuliner-6.jpg" alt="alternative">
-            </div>
-            <!-- end of col -->
-            <div class="col-lg-4">
-                <h4>WARUNG PASTA</h4>
-                <hr class="line-heading">
-                <p>Salah satu tempat makan yang cukup rame di Margonda. Harganya affordable buat mahasiswa / anak sekolah jadi sering rame dipakai nongkrong atau nugas kalau sore atau weekend. Pastanya ada macam-macam dan minuman disini juga ada yang refillable.</p><br/>
-                <p>Warung Pasta Depok bertempat di pinggir jalan raya margonda. Kalo dari arah pasar minggu berada di sebelah kiri. Petama masuk tempatnya itu dominasi tembok kaca.</p><br/>
-                <a class="btn-solid-reg" href="detail/detail-rekreasi5.html">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#gallery-wisata">BACK</a>
-            </div>
-            <!-- end of col -->
-        </div>
-        <!-- end of row -->
-    </div>
-    <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
+        <hr class="featurette-divider" />
 
-    <!-- Lightbox -->
-    <div id="project-6" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="img/kuliner/kuliner-9.jpg" alt="alternative">
-            </div>
-            <!-- end of col -->
-            <div class="col-lg-4">
-                <h4>GHAWIL CAFE & COFFE</h4>
-                <hr class="line-heading">
-                <p>Ghawil Cafe & Coffe merupakan tempat makan atau nongkrong yang sering dikunjungi oleh kalangan anak muda maupun orang tua sekalipun karena tempatnya terjangkau dan nyaman.</p><br/>
-                <p>Daerah Grand Depok City merupakan wilayah perumahan yang menjadi salah satu akses warga Depok untuk menuju ke Bogor, tak heran jalurnya cukup ramai dengan lalu lalang kendaraan. Hal inilah yang dimanfaatkan oleh Ghawil Cafe & Coffee. Berlokasi
-                    di jl. Boulevard GDC, tepatnya bersebrangan dengan Depok Fantasi</p><br/>
-                <a class="btn-solid-reg" href="detail/detail-rekreasi6.html">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#gallery-wisata">BACK</a>
-            </div>
-            <!-- end of col -->
-        </div>
-        <!-- end of row -->
-    </div>
-    <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
 
-    <!-- Lightbox -->
-    <div id="project-7" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="img/kuliner/kuliner-8.jpeg" alt="alternative">
-            </div>
-            <!-- end of col -->
-            <div class="col-lg-4">
-                <h4>CAFE N COFFE</h4>
-                <hr class="line-heading">
-                <p>Cafe N Coffe merupakan sebuah usaha keluarga yang memanfaatkan bangunan pendopo dihalaman depan.</p><br/>
-                <p>Cafe yang baru aja dibuka ini, lokasinya bersebelahan banget sama garage motor, atau usaha bengkel motor & custom, tempatnya cukup sederhana, tapi cukup oke juga buat santai-santai. Ada area indoor dan outdoornya juga.</p><br/>
-                <a class="btn-solid-reg" href="detail/detail-rekreasi7.html">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#gallery-wisata">BACK</a>
-            </div>
-            <!-- end of col -->
-        </div>
-        <!-- end of row -->
-    </div>
-    <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main>
 
-    <!-- Lightbox -->
-    <div id="project-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="img/kuliner/kuliner-7.jpeg" alt="alternative">
-            </div>
-            <!-- end of col -->
-            <div class="col-lg-4">
-                <h4>KAFE PANGESTU</h4>
-                <hr class="line-heading">
-                <p>Kafe Pangestu merupakan tempat makan yg lebih berkesan mature namun tetep santai, dengan konsep minimalis dan edgy.</p><br/>
-                <p>The Newest at Margonda Raya, tepat di sebrang kober. Kafe yg menyajikan menu campuran antara western dan eastern ini juga memanjakan para pengunjung dengan menyediakan fasilitas wi fi yg oke lengkap dan dari segi makanannya sangat enak</p><br/>
-                <a class="btn-solid-reg" href="detail/detail-rekreasi8.html">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#gallery-wisata">BACK</a>
-            </div>
-            <!-- end of col -->
-        </div>
-        <!-- end of row -->
-    </div>
-    <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-    <!-- end of project lightboxes -->
-
-
-    <!-- Intro -->
-
-    <!-- end of call me -->
-    <div id="login" class="form-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-
-                    <div class="text-container">
-                        <!-- <div class="section-title">CONTACT</div>
-                         -->
-                        <img src="img/background.jpg" alt="" width="530px" height="360px"> </div>
-
-                    <!-- end of text-container -->
-                </div>
-                <!-- end of col -->
-
-                <div class="col-lg-6">
-                    <br/>
-                    <center>
-                        <h2>LOGIN</h2>
-                    </center>
-                    <br/>
-                    <!-- Contact Form -->
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="username" name="username" required>
-                            <label class="label-control" for="cname">Username</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control-input" id="password" name="password" required>
-                            <label class="label-control" for="cemail">Password</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group checkbox">
-                            <input type="checkbox" class="form-checkbox" id="cterms" value="Agreed-to-Terms" required>Show Password
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" id="submit-btn" class="form-control-submit-button">SIGN IN</button>
-                        </div>
-                        <div class="form-message">
-                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div id="about" class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- Testimonials -->
-                <div class="slider">
-                    <div class="container">
-                        <!-- end of row -->
-                        <div class="row">
-                            <div class="col-lg-12">
-
-                                <!-- Card Slider -->
-                                <div class="slider-container">
-                                    <div class="swiper-container card-slider">
-                                        <div class="swiper-wrapper">
-
-                                            <!-- Slide -->
-                                            <div class="swiper-slide">
-                                                <div class="card">
-                                                    <img class="card-image" src="img/team/team-1.jpg" alt="alternative">
-                                                    <div class="card-body">
-                                                        <div class="testimonial-text">"Berbuat baiklah tanpa perlu alasan"</div>
-                                                        <div class="testimonial-author">MIA APRILIA SATYA</div>
-                                                        <div class="testimonial-author">(0110120010)</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end of swiper-slide -->
-                                            <!-- end of slide -->
-
-                                            <!-- Slide -->
-                                            <div class="swiper-slide">
-                                                <div class="card">
-                                                    <img class="card-image" src="img/team/team-2.jpeg" alt="alternative">
-                                                    <div class="card-body">
-                                                        <div class="testimonial-text">“Dream Belive And Make It Happend”</div>
-                                                        <div class="testimonial-author">MUHAMMAD NUR RAFIQ</div>
-                                                        <div class="testimonial-author">(0110120120)</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end of swiper-slide -->
-                                            <!-- end of slide -->
-
-                                            <!-- Slide -->
-                                            <div class="swiper-slide">
-                                                <div class="card">
-                                                    <img class="card-image" src="img/team/team-3.jpeg" alt="alternative">
-                                                    <div class="card-body">
-                                                        <div class="testimonial-text">"Perhaps you hate a thing but it's good for you; perhaps you love a thing but it's bad for you"</div>
-                                                        <div class="testimonial-author">AFRA AFIAH AYYASY</div>
-                                                        <div class="testimonial-author">(0110120156)</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end of swiper-slide -->
-                                            <!-- end of slide -->
-
-                                            <!-- Slide -->
-                                            <div class="swiper-slide">
-                                                <div class="card">
-                                                    <img class="card-image" src="img/team/team-4.jpeg" alt="alternative">
-                                                    <div class="card-body">
-                                                        <div class="testimonial-text">"Money can make you happy, but money can't make you stop being sad"</div>
-                                                        <div class="testimonial-author">ZULLIA TRI LESTARI</div>
-                                                        <div class="testimonial-author">(0110120136)</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end of swiper-slide -->
-                                            <!-- end of slide -->
-                                            <!-- end of swiper-slide -->
-                                            <!-- end of slide -->
-
-                                        </div>
-                                        <!-- end of swiper-wrapper -->
-
-                                        <!-- Add Arrows -->
-                                        <div class="swiper-button-next"></div>
-                                        <div class="swiper-button-prev"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-
-
-    <!-- Copyright -->
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Develope By Mahasiswa ©STT-NF 2020
-                    </p>
-                </div>
-                <!-- end of col -->
-            </div>
-            <!-- enf of row -->
-        </div>
-        <!-- end of container -->
-    </div>
-    <!-- end of copyright -->
-    <!-- end of copyright -->
-
-
-    <!-- Scripts -->
-
-    <script src="js/script.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script>
-    <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script>
-    <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script>
-    <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script>
-    <!-- Magnific Popup for lightboxes -->
-    <script src="js/morphext.min.js"></script>
-    <!-- Morphtext rotating text in the header -->
-    <script src="js/isotope.pkgd.min.js"></script>
-    <!-- Isotope for filter -->
-    <script src="js/validator.min.js"></script>
-    <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.form-checkbox').click(function() {
-                if ($(this).is(':checked')) {
-                    $('.form-control-input').attr('type', 'text');
-                } else {
-                    $('.form-control-input').attr('type', 'password');
-                }
-            });
-        });
-    </script>
-
-
-
-    <!-- Custom scripts -->
-</body>
-
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
