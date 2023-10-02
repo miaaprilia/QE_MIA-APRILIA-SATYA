@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prioritas 1</title>
-   </head>
+</head>
 </head>
 
 <body>
@@ -12,37 +13,38 @@
     <form class="content_form" action="" method="post" name="content_form">
         <table>
             <p>Create a new member</p>
-                <tr>
-                    <td>Name</td>
-                    <td><input type="text" id="name" spellcheck="false" placeholder="Enter your name"/></td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td><input type="text" id="email" spellcheck="false" placeholder="Enter your email"/></td>
-                </tr>
-                <tr>
-                    <td>Password</td>
-                    <td><input type="text" id="password" spellcheck="false" placeholder="Enter your password" /></td>
-                </tr>
-                <tr>
-                    <td>Phone Number</td>
-                    <td><input type="password" id="phone-number" spellcheck="false" placeholder="Enter your phone number" /></td>    
-                </tr>
-                <tr>
-                    <td>Address</td>
-                    <td><textarea name="address" id="address" cols="30" rows="10" spellcheck="false" placeholder="Enter your address"></textarea></td>    
-                </tr>
-                <tr>
-                    <td>Gender</td>
-                    <td><input type="radio" name="gender" value="male"> Male
-                        <input type="radio" name="gender" value="female"> Female
-                    </td>    
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><input type="submit" value="Register" id="create-account" class="button"/></td>
-                </tr>
-            </table>
-     </form>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="name" spellcheck="false" placeholder="Enter your name" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" id="email" spellcheck="false" placeholder="Enter your email" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="text" id="password" spellcheck="false" placeholder="Enter your password" required></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="password" id="phone-number" spellcheck="false" placeholder="Enter your phone number" required></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea name="address" id="address" cols="30" rows="10" spellcheck="false" placeholder="Enter your address" required></textarea></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Register" id="create-account" class="button" /></td>
+            </tr>
+        </table>
+    </form>
 </body>
+
 </html>
