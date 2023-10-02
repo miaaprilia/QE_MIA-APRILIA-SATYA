@@ -1,7 +1,7 @@
 Feature: Login Page
   As a user
   I want to login
-  So thatI can access dashboard page
+  So that I can access dashboard page
 
 #Scenario Negative
   Scenario: Login as a user but do not fill in the login form
@@ -38,7 +38,7 @@ Feature: Login Page
     And I see the message "Try to remember your e-mail address mobile number and password again appears. Something is still wrong."
     And I see the input form displays a warning icon
 
-#Scenario Positif
+#Scenario Positive
   Scenario: As logged in user with valid credentials
     Given I am on the login page
     When I enter a valid email
