@@ -1,21 +1,23 @@
-## 12 - Pengenalan RESTful API
+## 22 - Post Processor & Understanding JMeter Results
 
-Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran pengenalan restful api: <br>
-- Menjelaskan apa yang itu REST: <br>
-    Representational State Transfer (REST) adalah pendekatan arsitektur perangkat lunak untuk merancang layanan web yang mengikuti sejumlah prinsip tertentu. <br>
-- Menjelaskan apa yang itu API: <br>
-    Application Programming Interface (API) adalah cara komponen perangkat lunak harus berperilaku dan berkomunikasi, sehingga memungkinkan integrasi antara aplikasi yang berbeda. <br>
-- Mengenali ada 4 HTTP Method, yaitu: <br>
-    a. GET: Membaca data <br>
-    b. PUT: Membuat/mengganti data <br>
-    c. POST: Membuat data baru <br>
-    d. DELETE: Menghapus data yang ada <br> 
-- Mengenali HTTP Response Code: <br>
-    a. 200: OK <br>
-    b. 201: CREATE <br>
-    c. 400: BAD REQUEST <br> 
-    d. 404: NOT FOUND <br>
-    e. 401: UNAUTHORIZED <br>
-    f. 405: METHOD NOT ALLOWED <br>
-    g. 500: INTERNAL SERVER ERROR <br>
-- Mempraktikkan bagaimana menjalankan perintah pada postman
+Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran post processor & understanding jmeter result: <br>
+
+- Menjelaskan apa yang itu Post Processors: <br>
+  Elemen rencana pengujian yang digunakan untuk melakukan tindakan tertentu setelah pemrosesan permintaan sampel. <br>
+- Mengenali ada 6 Ekspresi JSON Path yang Umum Digunakan : <br>
+  a. $ : Root Element <br>
+  b. . : Child Operator (Object) <br>
+  c. [] : Child Operator (Array) <br>
+  d. .. : Recursive Descent (Langsung ke Object) <br>
+  e. \* : Wildcard (All Things) <br>
+  f. [start:end] : Array Slice Operator Borrowed <br>
+- Mengenali apa saja yang termasuk dalam Create Your Test Plan: <br>
+  a. HTTP Request Defaults <br>
+  b. Get List Users <br>
+  c. Post User <br>
+  d. CSV Name File <br>
+  e. Response Assertion <br>
+  f. Before Run Your Plan <br>
+- Mengenali rumus yang didapat dari perhitungan hasil throughput: <br>
+  (number of requests) / (total time) \* conversion <br>
+- Belajar mandiri terkait Post Processor & Understanding JMeter Results
