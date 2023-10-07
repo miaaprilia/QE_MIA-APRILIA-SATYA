@@ -1,21 +1,20 @@
-## 12 - Pengenalan RESTful API
+## 24 - Mobile Testing with Serenity
 
-Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran pengenalan restful api: <br>
-- Menjelaskan apa yang itu REST: <br>
-    Representational State Transfer (REST) adalah pendekatan arsitektur perangkat lunak untuk merancang layanan web yang mengikuti sejumlah prinsip tertentu. <br>
-- Menjelaskan apa yang itu API: <br>
-    Application Programming Interface (API) adalah cara komponen perangkat lunak harus berperilaku dan berkomunikasi, sehingga memungkinkan integrasi antara aplikasi yang berbeda. <br>
-- Mengenali ada 4 HTTP Method, yaitu: <br>
-    a. GET: Membaca data <br>
-    b. PUT: Membuat/mengganti data <br>
-    c. POST: Membuat data baru <br>
-    d. DELETE: Menghapus data yang ada <br> 
-- Mengenali HTTP Response Code: <br>
-    a. 200: OK <br>
-    b. 201: CREATE <br>
-    c. 400: BAD REQUEST <br> 
-    d. 404: NOT FOUND <br>
-    e. 401: UNAUTHORIZED <br>
-    f. 405: METHOD NOT ALLOWED <br>
-    g. 500: INTERNAL SERVER ERROR <br>
-- Mempraktikkan bagaimana menjalankan perintah pada postman
+Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran mobile testing with serenity: <br>
+
+- Mengenali apa yang itu Appium: <br>
+  Appium adalah kerangka kerja otomatisasi seluler untuk menjalankan uji otomatisasi seluler. <br>
+- Mengenali apa kegunaan dari Appium Server <br>
+  Appium Server digunakan sebagai jembatan untuk mengontrol perangkat pengujian. <br>
+- Mengenali 2 komponen penting digunakan pada Appium: <br>
+  a. Appium Server: Server Appium digunakan sebagai jembatan untuk mengontrol perangkat pengujian. Ada dua versi, bisa menggunakan appium desktop atau menginstal perintah appium menggunakan npm <br>
+  b. Appium Client: Library yang ditulis dalam beberapa bahasa untuk membuat skrip pengujian sehingga dapat mengirimkan perintah ke server appium <br>
+- Mengenali tools yang perlu diinstall sebelum menyiapkan Appium: <br>
+  a. Java JDK 17/11 <br>
+  b. Install Android SDK Platform-Tools & Command-Line tools <br>
+  c. Appium Server <br>
+  d. Appium Inspector <br>
+  e. Node JS <br>
+  f. Appium-doctor <br>
+- Belajar mandiri terkait configuration.yaml: <br>
+  Configuration.yml digunakan untuk menyimpan desired capabilities agar dapat digunakan dengan Appium.
