@@ -5,17 +5,17 @@ Summary Temporary
 Terdapat beberapa poin yang saya rangkum singkat dalam pembuatan dokumentasi test case pada aplikasi Toko Online: <br>
 
 - Pada fitur Login: <br>
-  Terdapat 24 test case, diantaranya 23 test case berjalan sesuai (success) dan 1 test case sisanya berjalan tidak sesuai (failed) <br>
+  Terdapat 5 test case, dengan hasil keseluruhan berjalan sesuai (success) <br>
 - Pada fitur Produk: <br>
-  Terdapat 10 test case, dengan hasil keseluruhan berjalan sesuai (success) <br>
+  Terdapat 18 test case, dengan hasil keseluruhan berjalan sesuai (success) <br>
 - Pada fitur Cart: <br>
-  Terdapat 15 test case, dengan hasil keseluruhan berjalan sesuai (success) <br>
+  Terdapat 17 test case, dengan hasil keseluruhan berjalan sesuai (success) <br>
 - Pada fitur User: <br>
-  Terdapat 13 test case, dengan hasil keseluruhan berjalan sesuai (success) <br>
+  Terdapat 15 test case, dengan hasil keseluruhan berjalan sesuai (success) <br>
 
 Total Feature: 4 <br>
-Total Test Case: 81 <br>
-Total Scenario Positive: 51 <br>
-Total Scenario Negative: 30 <br>
-Total Executed Success: 80 <br>
-Total Executed Failed: 1 <br>
+Total Test Case: 55 <br>
+Total Scenario Positive: 19 <br>
+Total Scenario Negative: 36 <br>
+Total Executed Success: 55 <br>
+Total Executed Failed: 0 <br>
