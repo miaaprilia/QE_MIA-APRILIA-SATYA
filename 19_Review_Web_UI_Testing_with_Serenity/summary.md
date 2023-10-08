@@ -1,21 +1,18 @@
-## 12 - Pengenalan RESTful API
+## 19 - Review Web UI Testing with Serenity
 
-Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran pengenalan restful api: <br>
-- Menjelaskan apa yang itu REST: <br>
-    Representational State Transfer (REST) adalah pendekatan arsitektur perangkat lunak untuk merancang layanan web yang mengikuti sejumlah prinsip tertentu. <br>
-- Menjelaskan apa yang itu API: <br>
-    Application Programming Interface (API) adalah cara komponen perangkat lunak harus berperilaku dan berkomunikasi, sehingga memungkinkan integrasi antara aplikasi yang berbeda. <br>
-- Mengenali ada 4 HTTP Method, yaitu: <br>
-    a. GET: Membaca data <br>
-    b. PUT: Membuat/mengganti data <br>
-    c. POST: Membuat data baru <br>
-    d. DELETE: Menghapus data yang ada <br> 
-- Mengenali HTTP Response Code: <br>
-    a. 200: OK <br>
-    b. 201: CREATE <br>
-    c. 400: BAD REQUEST <br> 
-    d. 404: NOT FOUND <br>
-    e. 401: UNAUTHORIZED <br>
-    f. 405: METHOD NOT ALLOWED <br>
-    g. 500: INTERNAL SERVER ERROR <br>
-- Mempraktikkan bagaimana menjalankan perintah pada postman
+Terdapat beberapa poin yang saya rangkum singkat terkait pembelajaran review web ui testing with serenity: <br>
+
+- Menjelaskan apa yang itu Serenity: <br>
+  Kerangka kerja BDD sumber terbuka yang membantu membuat tes penerimaan otomatis yang terstruktur dengan baik dan dapat dipelihara. <br>
+- Mengenali urutan Step Overview dalam BDD With Cucumber <br>
+  Write Story -> Configure Stories -> Browser Interaction -> Run Stories -> View Reports <br>
+- Mengenali ada 4 Writing The Test with Serenity Cucumber: <br>
+  a. Create File Stories: Define Test Scenario <br>
+  b. Create File Test Class: Automate Stories <br>
+  c. Create File Test Steps: Define Scenario Steps <br>
+  d. Create File Page Objects: Interact With Browser <br>
+- Mengenali Report on Test Result: <br>
+  a. A Narrative for each test <br>
+  b. Screenshots for each step in the test <br>
+  c. Prever bugs rather than finding bugs <br>
+- Mempraktikkan pemakaian digging deeper serenity with cucumber
