@@ -1,13 +1,18 @@
-Feature: Get All Users
+Feature: Get All Users Data
   As a user
   I want to get all data user
   So that I can read all user data
 
-  Background:
-    Given I set API endpoint for get all users positive
-
-#Scenario Positive
+  #Scenario Positive
   Scenario: As a user I can get all user data with valid path
-    When I send request to get all user with valid path
-    Then I receive status code 200
-    And I receive valid data for all data user
+    Given I set API endpoint valid for get all user data
+    When I send request to get all user data
+    Then I received status code 200 OK
+    And I received list valid data for all data user response
+
+  #Scenario Negative
+  Scenario: As a user I can't get all user data without path
+    Given I set API endpoint for get all user data without the path
+    When I send request to get all user data no path
+    Then I received status code 200 OK in request to get all user data
+    And I received format HTML response
