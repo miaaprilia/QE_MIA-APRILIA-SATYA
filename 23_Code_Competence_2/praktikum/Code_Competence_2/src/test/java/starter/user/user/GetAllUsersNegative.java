@@ -1,4 +1,4 @@
-package starter.user;
+package starter.user.user;
 
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
