@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "email": {
+          "type": "string"
+        },
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "name": {
+          "$ref": "#/definitions/Name"
+        },
+        "address": {
+          "$ref": "#/definitions/Address"
+        },
+        "phone": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "address",
+        "email",
+        "id",
+        "name",
+        "password",
+        "phone",
+        "username"
+      ],
+      "title": "Welcome"
+    },
+    "Address": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "street": {
+          "type": "string"
+        },
+        "number": {
+          "type": "integer"
+        },
+        "zipcode": {
+          "type": "string"
+        },
+        "geolocation": {
+          "$ref": "#/definitions/Geolocation"
+        }
+      },
+      "required": [
+        "city",
+        "geolocation",
+        "number",
+        "street",
+        "zipcode"
+      ],
+      "title": "Address"
+    },
+    "Geolocation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "lat": {
+          "type": "string"
+        },
+        "long": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "lat",
+        "long"
+      ],
+      "title": "Geolocation"
+    },
+    "Name": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "firstname": {
+          "type": "string"
+        },
+        "lastname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "firstname",
+        "lastname"
+      ],
+      "title": "Name"
+    }
+  }
+}

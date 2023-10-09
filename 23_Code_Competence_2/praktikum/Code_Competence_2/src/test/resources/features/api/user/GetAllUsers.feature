@@ -7,7 +7,7 @@ Feature: Get All Users Data
   Scenario: As a user I can get all user data with valid path
     Given I set API endpoint valid for get all user data
     When I send request to get all user data
-    Then I received status code 200 OK
+    Then I received status code 200 OK get all user
     And I received list valid data for all data user response
 
   #Scenario Negative
@@ -15,4 +15,4 @@ Feature: Get All Users Data
     Given I set API endpoint for get all user data without the path
     When I send request to get all user data no path
     Then I received status code 200 OK in request to get all user data
-    And I received format HTML response
+    And I received format HTML response get all users

@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/WelcomeElement"
+  },
+  "definitions": {
+    "WelcomeElement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": [
+            "https"
+          ],
+          "qt-uri-extensions": [
+            ".jpg"
+          ]
+        },
+        "rating": {
+          "$ref": "#/definitions/Rating"
+        }
+      },
+      "required": [
+        "category",
+        "description",
+        "id",
+        "image",
+        "price",
+        "rating",
+        "title"
+      ],
+      "title": "WelcomeElement"
+    },
+    "Rating": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rate": {
+          "type": "number"
+        },
+        "count": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "count",
+        "rate"
+      ],
+      "title": "Rating"
+    }
+  }
+}

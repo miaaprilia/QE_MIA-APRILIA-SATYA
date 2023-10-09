@@ -7,7 +7,7 @@ Feature: Update Cart By ID
   Scenario: As a user I can update a single cart data with a valid ID
     Given I set API endpoint valid for update a single cart data
     When I send request to update a single cart data
-    Then I received status code 200 OK
+    Then I received status code 200 OK update cart by ID
     And I received id update cart data response
 
   #Scenario Negative
@@ -21,4 +21,4 @@ Feature: Update Cart By ID
     Given I set API endpoint invalid for update a single cart data the path
     When I send request to update a single cart data invalid ID
     Then I received status code 400 Bad Request in request to update a single cart data by ID
-    And I received error message "something went wrong! check your sent data" response in request to update cart data by User ID
+    And I received error message "something went wrong! check your sent data" response in request to update cart data by ID

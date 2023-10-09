@@ -7,7 +7,7 @@ Feature: Get Cart By User ID
   Scenario: As a user I can get cart specific data with a valid User ID
     Given I set API endpoint valid for get cart specific data
     When I send request to get cart specific data
-    Then I received status code 200 OK
+    Then I received status code 200 OK get cart by user ID
     And I received detail list cart in specific user id data response
 
   #Scenario Negative

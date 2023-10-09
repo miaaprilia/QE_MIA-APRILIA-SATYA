@@ -7,7 +7,7 @@ Feature: Get User By ID
   Scenario: As a user I can get a single user data with a valid ID
     Given I set API endpoint valid for get a single user data
     When I send request to get a single user data
-    Then I received status code 200 OK
+    Then I received status code 200 OK get user by ID
     And I received detail single user data response
 
   #Scenario Negative

@@ -7,7 +7,7 @@ Feature: Get All Categories
   Scenario: As a user I can get all category with valid path
     Given I set API endpoint valid for get all category
     When I send request to get all category
-    Then I received status code 200 OK
+    Then I received status code 200 OK get all categories
     And I received list valid data for all category response
 
   #Scenario Negative
@@ -15,5 +15,5 @@ Feature: Get All Categories
     Given I set API endpoint for get all category without the path
     When I send request to get all category no path
     Then I received status code 200 OK in request to get all category
-    And I received format HTML response
+    And I received format HTML response get all Categories
 
