@@ -1,5 +1,7 @@
-Berikut link collection teammate postman latihan 12 - Pengenalan RESTful API:
+Berikut link google docs latihan 26 - Perkenalan AI & OpenAI QE:
 
-https://interstellar-meadow-220767.postman.co/workspace/Team-Workspace~45876de6-7f14-4fc1-8a2f-3c082c3fe705/collection/18530278-87f0b94b-c6b4-4aa0-a86c-5f0d2caea002?action=share&creator=18530278
+https://docs.google.com/document/d/1WuIaRgA_02uNCagll94HqqElg96Mh_ywnrhHz7HJl08/edit?usp=sharing
+
+https://platform.openai.com/playground/p/DiRTEweZbz4yQnNSxSJrH0c7?model=text-davinci-003
 
 Terima kasih.
