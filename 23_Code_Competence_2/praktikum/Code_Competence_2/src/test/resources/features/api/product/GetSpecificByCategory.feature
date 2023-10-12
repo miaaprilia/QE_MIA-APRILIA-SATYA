@@ -7,7 +7,7 @@ Feature: Get Specific By Category
   Scenario: As a user I can get product specific data with a valid category
     Given I set API endpoint valid for get product specific data
     When I send request to get product specific data
-    Then I received status code 200 OK
+    Then I received status code 200 OK get specific by category
     And I received detail list product in specific category data response
 
   #Scenario Negative

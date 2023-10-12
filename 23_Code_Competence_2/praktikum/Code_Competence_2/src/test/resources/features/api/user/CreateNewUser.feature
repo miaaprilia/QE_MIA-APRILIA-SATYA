@@ -7,7 +7,7 @@ Feature: Create New User Data
   Scenario: As a user I can create a new user data
     Given I set API endpoint for create new user data
     When I send request to create new user data
-    Then I received status code 200 OK
+    Then I received status code 200 OK create user by ID
     And I received id for new user data
 
   #Scenario Negative

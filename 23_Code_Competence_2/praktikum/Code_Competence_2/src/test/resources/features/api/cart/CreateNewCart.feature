@@ -7,7 +7,7 @@ Feature: Create New Cart Data
   Scenario: As a user I can create a new cart data
     Given I set API endpoint for create new cart data
     When I send request to create new cart data
-    Then I received status code 200 OK
+    Then I received status code 200 OK create cart data
     And I received id for new cart data
 
   #Scenario Negative

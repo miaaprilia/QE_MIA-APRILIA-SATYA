@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "userId": {
+          "type": "integer"
+        },
+        "date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "products": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Product"
+          }
+        },
+        "__v": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "__v",
+        "date",
+        "id",
+        "products",
+        "userId"
+      ],
+      "title": "Welcome"
+    },
+    "Product": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "productId": {
+          "type": "integer"
+        },
+        "quantity": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "productId",
+        "quantity"
+      ],
+      "title": "Product"
+    }
+  }
+}

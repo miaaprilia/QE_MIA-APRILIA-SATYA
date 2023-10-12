@@ -11,7 +11,7 @@ Feature: Login User
     When I enter a valid email
     And I enter a valid password
     And I send request to login user
-    Then I received status code 200 OK
+    Then I received status code 200 OK login user
     And I received token login user data response
 
   #Scenario Negative

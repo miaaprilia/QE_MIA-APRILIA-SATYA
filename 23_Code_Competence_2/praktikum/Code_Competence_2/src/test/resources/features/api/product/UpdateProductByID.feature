@@ -7,7 +7,7 @@ Feature: Update Product By ID
   Scenario: As a user I can update a single product data with a valid ID
     Given I set API endpoint valid for update a single product data
     When I send request to update a single product data
-    Then I received status code 200 OK
+    Then I received status code 200 OK update product by ID
     And I received id update data product response
 
   #Scenario Negative

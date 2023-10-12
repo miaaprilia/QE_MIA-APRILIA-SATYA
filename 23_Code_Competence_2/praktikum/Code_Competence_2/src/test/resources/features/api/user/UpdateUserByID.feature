@@ -7,7 +7,7 @@ Feature: Update User By ID
   Scenario: As a user I can update user data with a valid ID
     Given I set API endpoint valid for update user data
     When I send request to update user data
-    Then I received status code 200 OK
+    Then I received status code 200 OK update user by ID
     And I received empty data response
 
   #Scenario Negative

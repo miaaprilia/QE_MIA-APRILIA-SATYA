@@ -7,7 +7,7 @@ Feature: Get Cart By ID
   Scenario: As a user I can get a single cart data with a valid ID
     Given I set API endpoint valid for get a single cart data
     When I send request to get a single cart data
-    Then I received status code 200 OK
+    Then I received status code 200 OK get cart by ID
     And I received detail single cart data response
 
   #Scenario Negative

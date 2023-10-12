@@ -7,7 +7,7 @@ Feature: Create New Product Data
   Scenario: As a user I can create a new product data
     Given I set API endpoint for create new product data
     When I send request to create new product data
-    Then I received status code 200 OK
+    Then I received status code 200 OK create new product
     And I received id for new product data
 
   #Scenario Negative

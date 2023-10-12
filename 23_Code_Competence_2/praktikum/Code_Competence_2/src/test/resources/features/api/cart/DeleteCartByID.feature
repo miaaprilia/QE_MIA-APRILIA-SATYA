@@ -7,7 +7,7 @@ Feature: Delete Cart By ID
   Scenario: As a user I can delete a single cart data with a valid ID
     Given I set API endpoint valid for delete a single cart data
     When I send request to delete a single cart data
-    Then I received status code 200 OK
+    Then I received status code 200 OK delete cart by ID
     And I received detail cart delete data response
 
   #Scenario Negative
