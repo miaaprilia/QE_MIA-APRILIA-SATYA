@@ -1,0 +1,25 @@
+you are a software tester. Create a test cases for login page. Make sure posotive and negative case are included.
+
+Test Case 1: Positive Test
+
+Preconditions: Verify that a valid user account exists with the given details
+
+Steps:
+
+1. Enter username and password into the login page
+
+2. Click on the ‘Login’ button
+
+Expected Result: Redirect to the home page with welcome message
+
+Test Case 2: Negative Test
+
+Preconditions: Verify that an invalid user account exists with the given details
+
+Steps:
+
+1. Enter username and wrong password into the login page
+
+2. Click on the ‘Login’ button
+
+Expected Result: Show error message like ‘Invalid Credentials’
