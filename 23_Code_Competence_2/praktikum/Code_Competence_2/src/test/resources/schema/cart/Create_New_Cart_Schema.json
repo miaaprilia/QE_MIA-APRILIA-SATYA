@@ -8,10 +8,23 @@
       "properties": {
         "id": {
           "type": "integer"
+        },
+        "userId": {
+          "type": "integer"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "products": {
+          "type": "string"
         }
       },
       "required": [
-        "id"
+        "date",
+        "id",
+        "products",
+        "userId"
       ],
       "title": "Welcome"
     }

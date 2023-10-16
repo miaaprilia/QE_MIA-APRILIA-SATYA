@@ -7,6 +7,8 @@ import starter.utils.JsonSchemaHelper;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.notNullValue;
 
 public class GetCartByID {
     private static final String url = "https://fakestoreapi.com/";
@@ -31,6 +33,11 @@ public class GetCartByID {
     public void receivedDetailSingleCartDataResponse() {
         JsonSchemaHelper helper = new JsonSchemaHelper();
         String schema = helper.getResponseSchema(JsonSchema.Get_Cart_By_ID_Response_Schema);
+        restAssuredThat(response -> response.body("'id'", equalTo(1)));
+        restAssuredThat(response -> response.body("'userId'", notNullValue()));
+        restAssuredThat(response -> response.body("'date'", notNullValue()));
+        restAssuredThat(response -> response.body("'products'", notNullValue()));
+        restAssuredThat(response -> response.body("'__v'", notNullValue()));
         restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
     }
 

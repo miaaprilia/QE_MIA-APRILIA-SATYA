@@ -10,7 +10,7 @@ public class JsonSchema {
     public static final String Delete_Cart_By_ID_Response_Schema = "schema/cart/Delete_Cart_By_ID_Schema.json";
     public static final String Get_All_Carts_Response_Schema = "schema/cart/Get_All_Carts_Schema.json";
     public static final String Get_Cart_By_ID_Response_Schema = "schema/cart/Get_Cart_By_ID_Schema.json";
-    public static final String Get_Carts_By_User_ID_Response_Schema = "schema/cart/Get_Cart_By_User_ID_Schema.json";
+    public static final String Get_Cart_By_User_ID_Response_Schema = "schema/cart/Get_Cart_By_User_ID_Schema.json";
     public static final String Update_Cart_By_ID_Response_Schema = "schema/cart/Update_Cart_By_ID_Schema.json";
     public static final String Create_New_Product_Response_Schema = "schema/product/Create_New_Product_Schema.json";
     public static final String Delete_Product_By_ID_Response_Schema = "schema/product/Delete_Product_By_ID_Schema.json";

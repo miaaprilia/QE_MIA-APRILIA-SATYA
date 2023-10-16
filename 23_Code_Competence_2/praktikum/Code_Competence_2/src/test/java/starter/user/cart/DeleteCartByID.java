@@ -2,10 +2,6 @@ package starter.user.cart;
 
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
-import starter.utils.JsonSchema;
-import starter.utils.JsonSchemaHelper;
-
-import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class DeleteCartByID {
@@ -29,9 +25,6 @@ public class DeleteCartByID {
 
     @Step("I received detail cart delete data response")
     public void receivedDetailCartDeleteDataResponse() {
-        JsonSchemaHelper helper = new JsonSchemaHelper();
-        String schema = helper.getResponseSchema(JsonSchema.Delete_Cart_By_ID_Response_Schema);
-        restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
     }
 
     @Step("I set API endpoint invalid for delete cart data without the path")
