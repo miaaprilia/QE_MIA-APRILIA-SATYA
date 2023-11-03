@@ -1,0 +1,1258 @@
+{
+  "id": "9c90cf99-f534-4678-a9f5-d038858acad9",
+  "version": "2.0",
+  "name": "PROJECT STORE - AI",
+  "url": "https://www.demoblaze.com/index.html",
+  "tests": [{
+    "id": "69fcbd16-b587-4ca3-b2b8-473497dffbe7",
+    "name": "Sign Up Feature - Existing Username",
+    "commands": [{
+      "id": "6bd3d6f3-c7ec-40dd-ab0a-c26f5956cc10",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "031dc6f1-9fb6-42bb-afdd-ab4e2c347069",
+      "comment": "",
+      "command": "eyesSetViewportSize",
+      "target": "1680x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9734b53b-3ea6-4f16-92e2-6df64a41d6aa",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d007d09e-0638-4e56-a34f-6c514bf9f4c8",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=signin2",
+      "targets": [
+        ["id=signin2", "id"],
+        ["linkText=Sign up", "linkText"],
+        ["css=#signin2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[@id='signin2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d173be98-b224-47c5-a222-41eb41a10d59",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin2",
+      "targets": [
+        ["id=signin2", "id"],
+        ["linkText=Sign up", "linkText"],
+        ["css=#signin2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[@id='signin2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "712d200c-34ce-4621-b044-b87aea40efed",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5531b212-d907-40c6-9c5d-6b033d05034e",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "testvalidregister"
+    }, {
+      "id": "6378ba84-664d-4784-a276-037a261bb1a6",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=sign-password",
+      "targets": [
+        ["id=sign-password", "id"],
+        ["css=#sign-password", "css:finder"],
+        ["xpath=//input[@id='sign-password']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "814e2616-44e0-4cc7-b386-cf58559a417a",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-password",
+      "targets": [
+        ["id=sign-password", "id"],
+        ["css=#sign-password", "css:finder"],
+        ["xpath=//input[@id='sign-password']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "test12345"
+    }, {
+      "id": "b40b2d59-6f6f-44c6-9679-ab8ba571ab58",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [
+        ["css=#signInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d831d20e-4c36-400d-8dbf-f92123ec0d36",
+      "comment": "",
+      "command": "click",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [
+        ["css=#signInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fde8f56-68ac-4c69-ad4b-054522d83ce0",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "This user already exist.",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "61bad061-9be8-40a7-b1c8-ecebc770348f",
+    "name": "Sign Up Feature - Valid Registration",
+    "commands": [{
+      "id": "dbf854f7-4d81-4b30-9c01-8213792be4b1",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1322805-2faf-4f49-8709-18fb27bf8c78",
+      "comment": "",
+      "command": "eyesSetViewportSize",
+      "target": "1680x450",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de2beeeb-3908-4dac-8627-9f1f60b6068a",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64850d6c-dc2e-40cc-826d-0d04058a1900",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=signin2",
+      "targets": [
+        ["id=signin2", "id"],
+        ["linkText=Sign up", "linkText"],
+        ["css=#signin2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[@id='signin2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e18e8df2-89df-4f50-9637-5ff73fb1fddd",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin2",
+      "targets": [
+        ["id=signin2", "id"],
+        ["linkText=Sign up", "linkText"],
+        ["css=#signin2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[@id='signin2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7268b3e5-d8d9-47e0-95aa-734b7d42a707",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "738193c6-2b64-465d-acdf-b5a318b70296",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "validregisteruser2"
+    }, {
+      "id": "e8b9a9ae-8c92-4796-884e-5cda39c7d80c",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=sign-password",
+      "targets": [
+        ["id=sign-password", "id"],
+        ["css=#sign-password", "css:finder"],
+        ["xpath=//input[@id='sign-password']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c05e1ca-ce61-4e88-8a2d-d92616fde7a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-password",
+      "targets": [
+        ["id=sign-password", "id"],
+        ["css=#sign-password", "css:finder"],
+        ["xpath=//input[@id='sign-password']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "test12345"
+    }, {
+      "id": "fc4f3862-e572-48ae-bb38-ab4b080daad2",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [
+        ["css=#signInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43aa387a-4af3-4f4a-80bf-7bf33f887e06",
+      "comment": "",
+      "command": "click",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [
+        ["css=#signInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "093d4318-0764-4951-bb22-9ca018703dc1",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Sign up successful.",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0a10b8cf-44a3-408b-8288-bdea05fe2f9d",
+    "name": "Sign Up Feature - Empty Fields",
+    "commands": [{
+      "id": "9beb6088-8385-470f-a372-305130512fe6",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d78c1a0-3ad6-473a-a4d3-c690fbf0e366",
+      "comment": "",
+      "command": "eyesSetViewportSize",
+      "target": "1680x450",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b25383b-7a5b-4cb4-85ec-57aa4caf5645",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3fce471-53d6-429d-b4cb-920b6b46a3ae",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=signin2",
+      "targets": [
+        ["id=signin2", "id"],
+        ["linkText=Sign up", "linkText"],
+        ["css=#signin2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[@id='signin2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c0a8a5d-0fff-4df2-aa00-4bb868982d69",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin2",
+      "targets": [
+        ["id=signin2", "id"],
+        ["linkText=Sign up", "linkText"],
+        ["css=#signin2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[@id='signin2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd77843c-ce37-4486-bd79-9edc00f44c72",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c7761c7-829c-43f8-a27d-f9b3a7968f3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7b09961-5c7b-49dd-b234-3335540a3583",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=sign-password",
+      "targets": [
+        ["id=sign-password", "id"],
+        ["css=#sign-password", "css:finder"],
+        ["xpath=//input[@id='sign-password']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5af0700a-d376-4d48-aa5c-cdc92a45a56a",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-password",
+      "targets": [
+        ["id=sign-password", "id"],
+        ["css=#sign-password", "css:finder"],
+        ["xpath=//input[@id='sign-password']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9c84ff4-e977-41b1-a735-fd2f8652ea25",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-password",
+      "targets": [
+        ["id=sign-password", "id"],
+        ["css=#sign-password", "css:finder"],
+        ["xpath=//input[@id='sign-password']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d08e3a12-8805-456f-abd5-a37f88b6aecd",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [
+        ["css=#signInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d0330c7-2184-445b-aaee-a7aea441398b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [
+        ["css=#signInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6f2ab0a-26ec-405d-a450-7a82441b9098",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please fill out Username and Password.",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "797ec783-6d23-4cea-8094-a5beb782976e",
+    "name": "Purchase Product - Success Payment Item with Filling Form Place Order",
+    "commands": [{
+      "id": "79281c22-4144-42f0-9270-5e3d27f782c4",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5aaa4cf0-18be-4aa2-8dc4-82efcc200065",
+      "comment": "",
+      "command": "eyesSetViewportSize",
+      "target": "1680x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2c6e013-2b9e-4093-bc7a-24ede2092687",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b9fc62e-ad12-4712-8d88-e60222fd10cd",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.col-lg-4:nth-child(1) .card-img-top",
+      "targets": [
+        ["css=.col-lg-4:nth-child(1) .card-img-top", "css:finder"],
+        ["xpath=//div[@id='tbodyid']/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d7c2f0f-ca4f-4ddf-918a-845c22374327",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(1) .card-img-top",
+      "targets": [
+        ["css=.col-lg-4:nth-child(1) .card-img-top", "css:finder"],
+        ["xpath=//div[@id='tbodyid']/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c15d16af-442f-4e67-b4da-cc90c138ccf9",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "linkText=Add to cart",
+      "targets": [
+        ["linkText=Add to cart", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Add to cart')]", "xpath:link"],
+        ["xpath=//a[@onclick='addToCart(1)']", "xpath:attributes"],
+        ["xpath=//div[@id='tbodyid']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35a3e8ba-fa13-42c1-9af0-ebc00b8d8a54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add to cart",
+      "targets": [
+        ["linkText=Add to cart", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Add to cart')]", "xpath:link"],
+        ["xpath=//a[@onclick='addToCart(1)']", "xpath:attributes"],
+        ["xpath=//div[@id='tbodyid']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3a471b4-58ca-44d8-93f1-b9444f28072a",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Product added",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "196c973d-f12f-4a17-9ed5-208a9b3b70a7",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=cartur",
+      "targets": [
+        ["id=cartur", "id"],
+        ["linkText=Cart", "linkText"],
+        ["css=#cartur", "css:finder"],
+        ["xpath=//a[contains(text(),'Cart')]", "xpath:link"],
+        ["xpath=//a[@id='cartur']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cart.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f09916f3-7227-4583-9af4-81f629b64edb",
+      "comment": "",
+      "command": "click",
+      "target": "id=cartur",
+      "targets": [
+        ["id=cartur", "id"],
+        ["linkText=Cart", "linkText"],
+        ["css=#cartur", "css:finder"],
+        ["xpath=//a[contains(text(),'Cart')]", "xpath:link"],
+        ["xpath=//a[@id='cartur']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cart.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c696e3c-dfd8-45af-9c0e-152a26643c5a",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[30]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c1916c3-b4cb-447d-9478-b6c3d30146e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[30]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "369e8eb1-269d-4e15-824a-15ec4d472842",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "496e9ea7-ff41-4598-a754-50503888ade2",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "Mia Aprilia Satya"
+    }, {
+      "id": "947fc1fc-684b-497d-86d9-24ed7c383c12",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=country",
+      "targets": [
+        ["id=country", "id"],
+        ["css=#country", "css:finder"],
+        ["xpath=//input[@id='country']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ea2a6e7-51fb-4efe-9963-0b80d3e389d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=country",
+      "targets": [
+        ["id=country", "id"],
+        ["css=#country", "css:finder"],
+        ["xpath=//input[@id='country']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08ba1314-3037-4235-8591-bb0ce2557c12",
+      "comment": "",
+      "command": "type",
+      "target": "id=country",
+      "targets": [
+        ["id=country", "id"],
+        ["css=#country", "css:finder"],
+        ["xpath=//input[@id='country']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "Indonesia"
+    }, {
+      "id": "88563f7a-240b-483e-9c3a-708858f7eeb4",
+      "comment": "",
+      "command": "type",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Jakarta Selatan"
+    }, {
+      "id": "b446a7c7-6c0e-45ff-984f-18a9336a1995",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bff7ddea-2bcc-4e3a-881f-7a0967d3e85f",
+      "comment": "",
+      "command": "click",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3c5cc38-e7fe-457b-8767-8cfa82b0ac1b",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=card",
+      "targets": [
+        ["id=card", "id"],
+        ["css=#card", "css:finder"],
+        ["xpath=//input[@id='card']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "218dcf63-0cce-446f-9614-4a2be50c4fc1",
+      "comment": "",
+      "command": "type",
+      "target": "id=card",
+      "targets": [
+        ["id=card", "id"],
+        ["css=#card", "css:finder"],
+        ["xpath=//input[@id='card']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "153425278222"
+    }, {
+      "id": "62d723b3-e979-4f03-9271-786acca6f2d4",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["css=#month", "css:finder"],
+        ["xpath=//input[@id='month']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09b300eb-e8ac-4f62-9fa4-8b2bf9317554",
+      "comment": "",
+      "command": "type",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["css=#month", "css:finder"],
+        ["xpath=//input[@id='month']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "0402"
+    }, {
+      "id": "c0b2fc8e-8ff2-4735-82cb-450d5e9f4b95",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["css=#year", "css:finder"],
+        ["xpath=//input[@id='year']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64d5c0aa-5af9-4916-a9ba-901517b4b769",
+      "comment": "",
+      "command": "type",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["css=#year", "css:finder"],
+        ["xpath=//input[@id='year']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "2024"
+    }, {
+      "id": "b746be1a-aca2-46e8-8751-f9428b2fa4d0",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=#orderModal .btn-primary",
+      "targets": [
+        ["css=#orderModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Purchase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68b7640a-36e8-4fa2-a717-236c5d78f49c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#orderModal .btn-primary",
+      "targets": [
+        ["css=#orderModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Purchase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3e95cd23-c463-4669-af4a-63b7fe102392",
+    "name": "Purchase Product - Failed Payment Item with Blank Form Place Order",
+    "commands": [{
+      "id": "7f81f4d4-dc21-4b0b-ada2-0526c50c8e98",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "240f721d-4c2a-4c87-aadf-a0c954604932",
+      "comment": "",
+      "command": "eyesSetViewportSize",
+      "target": "1680x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05917259-9efe-49f6-a685-ff4dc12db80b",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24b95c94-f0b9-4cc7-a76d-84bd8387c854",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.col-lg-4:nth-child(2) .card-img-top",
+      "targets": [
+        ["css=.col-lg-4:nth-child(2) .card-img-top", "css:finder"],
+        ["xpath=//div[@id='tbodyid']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6b61a89-5e3f-4ad4-be27-401affaf27b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(2) .card-img-top",
+      "targets": [
+        ["css=.col-lg-4:nth-child(2) .card-img-top", "css:finder"],
+        ["xpath=//div[@id='tbodyid']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24ef9707-5d57-4461-aaf1-98fb16c1ce46",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "linkText=Add to cart",
+      "targets": [
+        ["linkText=Add to cart", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Add to cart')]", "xpath:link"],
+        ["xpath=//a[@onclick='addToCart(2)']", "xpath:attributes"],
+        ["xpath=//div[@id='tbodyid']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60f4ef92-6d90-4789-944c-3997b2fee1f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add to cart",
+      "targets": [
+        ["linkText=Add to cart", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Add to cart')]", "xpath:link"],
+        ["xpath=//a[@onclick='addToCart(2)']", "xpath:attributes"],
+        ["xpath=//div[@id='tbodyid']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9a56eba-b5c1-4a71-b494-81d4ded8fded",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Product added",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d44d9342-9df8-4504-a60d-199fc0366b19",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=cartur",
+      "targets": [
+        ["id=cartur", "id"],
+        ["linkText=Cart", "linkText"],
+        ["css=#cartur", "css:finder"],
+        ["xpath=//a[contains(text(),'Cart')]", "xpath:link"],
+        ["xpath=//a[@id='cartur']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cart.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "943ffaf4-d498-4e85-affb-9b4a4c1a384b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cartur",
+      "targets": [
+        ["id=cartur", "id"],
+        ["linkText=Cart", "linkText"],
+        ["css=#cartur", "css:finder"],
+        ["xpath=//a[contains(text(),'Cart')]", "xpath:link"],
+        ["xpath=//a[@id='cartur']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cart.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17cd28e0-4467-4f7b-8848-a9c9dbc982d0",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[30]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94b20699-53ef-4a5b-8d8a-448eb6f24718",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[30]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "008fdfd2-5004-4afd-929f-5ad1c410d7f8",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4330d1b7-a034-42eb-b457-c8a27fe5dba4",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3431dc28-083e-4240-9e15-e1714d47bdb2",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=country",
+      "targets": [
+        ["id=country", "id"],
+        ["css=#country", "css:finder"],
+        ["xpath=//input[@id='country']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bc602c7-4184-464a-b445-f2ae4261b19b",
+      "comment": "",
+      "command": "click",
+      "target": "id=country",
+      "targets": [
+        ["id=country", "id"],
+        ["css=#country", "css:finder"],
+        ["xpath=//input[@id='country']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3d266fd-feda-433f-8c10-72ac29992ed0",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67fea2ed-2fd6-4013-a5a7-286a37477d88",
+      "comment": "",
+      "command": "click",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93239355-bb4a-4f3d-8c0d-8249aa19dfcf",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=card",
+      "targets": [
+        ["id=card", "id"],
+        ["css=#card", "css:finder"],
+        ["xpath=//input[@id='card']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "582a0412-20db-4087-a6fb-afd0523fe63c",
+      "comment": "",
+      "command": "click",
+      "target": "id=card",
+      "targets": [
+        ["id=card", "id"],
+        ["css=#card", "css:finder"],
+        ["xpath=//input[@id='card']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7817559-9b46-4649-8ed7-edb1bdd18c51",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["css=#month", "css:finder"],
+        ["xpath=//input[@id='month']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a85bed3e-a674-4fa2-abf5-2f00c628d43d",
+      "comment": "",
+      "command": "click",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["css=#month", "css:finder"],
+        ["xpath=//input[@id='month']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e4157a3-424c-4d0f-80e9-92a72db598d6",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["css=#year", "css:finder"],
+        ["xpath=//input[@id='year']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "138d24db-8839-4f25-b783-62a9de171016",
+      "comment": "",
+      "command": "click",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["css=#year", "css:finder"],
+        ["xpath=//input[@id='year']", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[2]/form/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f6fbd58-f5b7-44c4-a813-a7175878e8a3",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=#orderModal .btn-primary",
+      "targets": [
+        ["css=#orderModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Purchase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cf11ec0-8b4e-49e2-9d54-3ce07fd3134a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#orderModal .btn-primary",
+      "targets": [
+        ["css=#orderModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Purchase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ce6654d-b127-42a0-bc9d-b80f2ba5f8bc",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please fill out Name and Creditcard.",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a0dbe09e-7f92-4c9f-b301-42f8dccb9179",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["69fcbd16-b587-4ca3-b2b8-473497dffbe7"]
+  }],
+  "urls": ["https://www.demoblaze.com/index.html"],
+  "plugins": [{
+    "id": "fbnkflkahhlmhdgkddaafgnnokifobik",
+    "name": "Applitools",
+    "version": "1.0.0"
+  }],
+  "snapshot": {
+    "globalConfig": {
+      "snapshot": "const { Eyes, Target } = require('@applitools/eyes-selenium');global.Target = Target;const { ConsoleLogHandler, BatchInfo, AccessibilityLevel, AccessibilityGuidelinesVersion } = require('@applitools/eyes-sdk-core');let apiKey = process.env.APPLITOOLS_API_KEY, serverUrl = process.env.APPLITOOLS_SERVER_URL, appName = \"PROJECT STORE - AI\", batchId = configuration.runId, batchName;"
+    },
+    "suites": [{
+      "name": "Default Suite",
+      "persistSession": false,
+      "snapshot": {
+        "hook": "beforeAll(async () => {batchName = \"Default Suite\";});beforeEach(async () => {global.eyes = Eyes.fromBrowserInfo(serverUrl, configuration.params.eyesDisabled, configuration.params.eyesRendering ? { browser: configuration.params.eyesRendering } : undefined);\neyes.setApiKey(apiKey);eyes.getBaseAgentId = () => (\"eyes.seleniumide.runner.\" + (eyes._isVisualGrid ? \"visualgrid\" : \"local\") + \"/1.14.0\");\neyes.setAgentId(\"eyes.seleniumide.runner.\" + (eyes._isVisualGrid ? \"visualgrid\" : \"local\") + \"/1.14.0\");\neyes.setBatch(new BatchInfo(batchName, undefined, batchId));\nif(!eyes._isVisualGrid) {\n\teyes.setHideScrollbars(true);\n\teyes.setStitchMode(\"CSS\");\n}\neyes.setSendDom(configuration.params.eyesDomUploadEnabled === undefined ? true : configuration.params.eyesDomUploadEnabled);\nif (configuration.params.eyesLogsEnabled) {\n\teyes.setLogHandler(new ConsoleLogHandler(true));\n}\nif (configuration.params.eyesAccessibilityLevel) {\n\tconst _config = eyes.getConfiguration();\n\t_config.setAccessibilityValidation(\n\t\t{\n\t\t\tlevel: AccessibilityLevel[configuration.params.eyesAccessibilityLevel],\n\t\t\tguidelinesVersion: AccessibilityGuidelinesVersion.WCAG_2_0,\n\t\t}\n\t)\n\teyes.setConfiguration(_config);\n}});afterEach(async () => {if (eyes._isOpen) {eyes.getEyesRunner ? await eyes.getEyesRunner().getAllResults() : await eyes.close();}});"
+      }
+    }],
+    "tests": [{
+      "id": "69fcbd16-b587-4ca3-b2b8-473497dffbe7",
+      "snapshot": {
+        "commands": {
+          "031dc6f1-9fb6-42bb-afdd-ab4e2c347069": "await eyes.setViewportSize({width: 1680, height: 750});",
+          "9734b53b-3ea6-4f16-92e2-6df64a41d6aa": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().webHook(preRenderHook).fully(true));}",
+          "d007d09e-0638-4e56-a34f-6c514bf9f4c8": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`signin2`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`signin2`)).webHook(preRenderHook));}",
+          "712d200c-34ce-4621-b044-b87aea40efed": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`sign-username`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`sign-username`)).webHook(preRenderHook));}",
+          "6378ba84-664d-4784-a276-037a261bb1a6": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`sign-password`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`sign-password`)).webHook(preRenderHook));}",
+          "b40b2d59-6f6f-44c6-9679-ab8ba571ab58": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`#signInModal .btn-primary`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`#signInModal .btn-primary`)).webHook(preRenderHook));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"Sign Up Feature - Existing Username\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }, {
+      "id": "61bad061-9be8-40a7-b1c8-ecebc770348f",
+      "snapshot": {
+        "commands": {
+          "c1322805-2faf-4f49-8709-18fb27bf8c78": "await eyes.setViewportSize({width: 1680, height: 450});",
+          "de2beeeb-3908-4dac-8627-9f1f60b6068a": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().webHook(preRenderHook).fully(true));}",
+          "64850d6c-dc2e-40cc-826d-0d04058a1900": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`signin2`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`signin2`)).webHook(preRenderHook));}",
+          "7268b3e5-d8d9-47e0-95aa-734b7d42a707": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`sign-username`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`sign-username`)).webHook(preRenderHook));}",
+          "e8b9a9ae-8c92-4796-884e-5cda39c7d80c": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`sign-password`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`sign-password`)).webHook(preRenderHook));}",
+          "fc4f3862-e572-48ae-bb38-ab4b080daad2": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`#signInModal .btn-primary`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`#signInModal .btn-primary`)).webHook(preRenderHook));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"Sign Up Feature - Valid Registration\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }, {
+      "id": "0a10b8cf-44a3-408b-8288-bdea05fe2f9d",
+      "snapshot": {
+        "commands": {
+          "2d78c1a0-3ad6-473a-a4d3-c690fbf0e366": "await eyes.setViewportSize({width: 1680, height: 450});",
+          "8b25383b-7a5b-4cb4-85ec-57aa4caf5645": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().webHook(preRenderHook).fully(true));}",
+          "e3fce471-53d6-429d-b4cb-920b6b46a3ae": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`signin2`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`signin2`)).webHook(preRenderHook));}",
+          "bd77843c-ce37-4486-bd79-9edc00f44c72": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`sign-username`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`sign-username`)).webHook(preRenderHook));}",
+          "d7b09961-5c7b-49dd-b234-3335540a3583": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`sign-password`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`sign-password`)).webHook(preRenderHook));}",
+          "d08e3a12-8805-456f-abd5-a37f88b6aecd": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`#signInModal .btn-primary`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`#signInModal .btn-primary`)).webHook(preRenderHook));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"Sign Up Feature - Empty Fields\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }, {
+      "id": "797ec783-6d23-4cea-8094-a5beb782976e",
+      "snapshot": {
+        "commands": {
+          "5aaa4cf0-18be-4aa2-8dc4-82efcc200065": "await eyes.setViewportSize({width: 1680, height: 750});",
+          "f2c6e013-2b9e-4093-bc7a-24ede2092687": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().webHook(preRenderHook).fully(true));}",
+          "9b9fc62e-ad12-4712-8d88-e60222fd10cd": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.col-lg-4:nth-child(1) .card-img-top`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.col-lg-4:nth-child(1) .card-img-top`)).webHook(preRenderHook));}",
+          "c15d16af-442f-4e67-b4da-cc90c138ccf9": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.linkText(`Add to cart`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.linkText(`Add to cart`)).webHook(preRenderHook));}",
+          "196c973d-f12f-4a17-9ed5-208a9b3b70a7": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`cartur`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`cartur`)).webHook(preRenderHook));}",
+          "3c696e3c-dfd8-45af-9c0e-152a26643c5a": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.btn-success`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.btn-success`)).webHook(preRenderHook));}",
+          "369e8eb1-269d-4e15-824a-15ec4d472842": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`name`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`name`)).webHook(preRenderHook));}",
+          "947fc1fc-684b-497d-86d9-24ed7c383c12": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`country`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`country`)).webHook(preRenderHook));}",
+          "b446a7c7-6c0e-45ff-984f-18a9336a1995": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`city`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`city`)).webHook(preRenderHook));}",
+          "a3c5cc38-e7fe-457b-8767-8cfa82b0ac1b": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`card`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`card`)).webHook(preRenderHook));}",
+          "62d723b3-e979-4f03-9271-786acca6f2d4": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`month`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`month`)).webHook(preRenderHook));}",
+          "c0b2fc8e-8ff2-4735-82cb-450d5e9f4b95": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`year`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`year`)).webHook(preRenderHook));}",
+          "b746be1a-aca2-46e8-8751-f9428b2fa4d0": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`#orderModal .btn-primary`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`#orderModal .btn-primary`)).webHook(preRenderHook));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"Purchase Product - Success Payment Item with Filling Form Place Order\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }, {
+      "id": "3e95cd23-c463-4669-af4a-63b7fe102392",
+      "snapshot": {
+        "commands": {
+          "240f721d-4c2a-4c87-aadf-a0c954604932": "await eyes.setViewportSize({width: 1680, height: 750});",
+          "05917259-9efe-49f6-a685-ff4dc12db80b": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().webHook(preRenderHook).fully(true));}",
+          "24b95c94-f0b9-4cc7-a76d-84bd8387c854": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.col-lg-4:nth-child(2) .card-img-top`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.col-lg-4:nth-child(2) .card-img-top`)).webHook(preRenderHook));}",
+          "24ef9707-5d57-4461-aaf1-98fb16c1ce46": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.linkText(`Add to cart`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.linkText(`Add to cart`)).webHook(preRenderHook));}",
+          "d44d9342-9df8-4504-a60d-199fc0366b19": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`cartur`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`cartur`)).webHook(preRenderHook));}",
+          "17cd28e0-4467-4f7b-8848-a9c9dbc982d0": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.btn-success`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.btn-success`)).webHook(preRenderHook));}",
+          "008fdfd2-5004-4afd-929f-5ad1c410d7f8": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`name`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`name`)).webHook(preRenderHook));}",
+          "3431dc28-083e-4240-9e15-e1714d47bdb2": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`country`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`country`)).webHook(preRenderHook));}",
+          "b3d266fd-feda-433f-8c10-72ac29992ed0": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`city`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`city`)).webHook(preRenderHook));}",
+          "93239355-bb4a-4f3d-8c0d-8249aa19dfcf": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`card`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`card`)).webHook(preRenderHook));}",
+          "a7817559-9b46-4649-8ed7-edb1bdd18c51": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`month`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`month`)).webHook(preRenderHook));}",
+          "7e4157a3-424c-4d0f-80e9-92a72db598d6": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`year`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`year`)).webHook(preRenderHook));}",
+          "1f6fbd58-f5b7-44c4-a813-a7175878e8a3": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`#orderModal .btn-primary`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`#orderModal .btn-primary`)).webHook(preRenderHook));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"Purchase Product - Failed Payment Item with Blank Form Place Order\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }]
+  },
+  "dependencies": {
+    "@applitools/eyes-selenium": "4.44.0"
+  },
+  "jest": {
+    "extraGlobals": ["Math"]
+  }
+}
